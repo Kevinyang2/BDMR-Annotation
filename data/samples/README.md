@@ -10,4 +10,3 @@ The original file contains 188 records. All annotation fields and values are pre
 
 Each line is a JSON object describing a query/video pair. Fields can include `qid`, `vid`, `query`, `duration`, `relevant_windows`, `relevant_clip_ids`, `saliency_scores`, and `split`. Referenced videos are not included.
 
-This sample contains project-owned annotations rather than a copied QV-M2 release subset. No third-party dataset license is bundled with this sample.
