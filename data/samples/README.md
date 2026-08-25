@@ -6,7 +6,7 @@
 annotation_workspace/merged_chinese_qv_final_20260512_221647/annotations_en/train.jsonl
 ```
 
-The original file contains 188 records. All annotation fields and values are preserved except `video_path`, which was intentionally removed because it contained machine-specific absolute paths. The sample is a compact input for demonstrating the annotation tool.
+All annotation fields and values are preserved except `video_path`, which was intentionally removed because it contained machine-specific absolute paths. The sample is a compact input for demonstrating the annotation tool.
 
 Each line is a JSON object describing a query/video pair. Fields can include `qid`, `vid`, `query`, `duration`, `relevant_windows`, `relevant_clip_ids`, `saliency_scores`, and `split`. Referenced videos are not included.
 
